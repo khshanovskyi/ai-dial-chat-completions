@@ -12,6 +12,8 @@ async def start(stream: bool) -> None:
         deployment_name="gpt-4o",
     )
 
+    # TODO: Implement CustomClient
+
     conversation = Conversation()
 
     print("Provide System prompt or press 'enter' to continue.")
